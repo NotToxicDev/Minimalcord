@@ -1,0 +1,43 @@
+/* Custom Code Font */
+code, .codeLine-14BKbG { 
+    font-family: 'Fira Code', monospace; 
+  }
+
+  /* Custom Home Icon */
+  .listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+    background: url("https://cdn.discordapp.com/attachments/751919562605461630/752200585670951023/house-user.png"); /* image url */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+  }
+  
+  .homeIcon-tEMBK1 path {
+    fill: transparent;
+  }
+
+  /* Minimal Status Picker */
+  .menu-3sdvDG .description-2L932D,
+.menu-3sdvDG .separator-2I32lJ  {
+  display: none;
+}
+
+/* Notes Height Fix */
+.note-QfFU8y textarea,
+.note-3HfJZ5 textarea  {
+   height: 25px !important;
+}
+
+ /*Profile Modal*/
+ .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+   z-index: 1;
+   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+}
+
+
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+   z-index: 1;
+   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+}
