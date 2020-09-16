@@ -1,0 +1,618 @@
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/MoreRoundedBorders/borders.css");
+@import url("https://raw.githack.com/Chromus-dev/BD-PC-Stuff/master/BetterDiscord/Themes/ChromusTweaks.css");
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Addons/old-status-indicator.css");
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/ping.css");
+/* Animated | Ping */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/ping.css");
+
+/* Animated | Home Button */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/home-button.css");
+
+/* Animated | Avatar Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/avatar-hover.css");
+
+/* Animated | Icons Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/icons-hover.css");
+
+/* Animated | Chat Highlight */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/chat-highlight.css");
+
+/* Animated | Channel Highlight */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/channel-highlight.css");
+
+/* Animated | Profile Badge */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/profile-badge.css");
+
+/* Animated | Card Hover */
+@import url("https://raw.githack.com/CorellanStoma/Powercord/assets/Animated/card-hover.css");
+
+/*Wordmark*/
+.wordmark-2iDDfm:after {
+  content: "";
+  font-size: 14px;
+  font-weight: 700;
+  position: linear;
+  top: 5px;
+  padding-left: -3px;
+  font-family: "Discord";
+}
+.wordmark-2iDDfm > svg{
+  width: 0px;
+}
+
+/* Remove Profile Notes in Big Modal */                                     
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {border:0px}
+div.userInfoSection-2acyCx {padding:10px 0px}
+.userInfoSectionHeader-CBvMDh {display:none}
+.note-QfFU8y {display:none}
+
+/* Audioviz Color */
+.vp-audioviz-bar {
+  background: rgb(69, 87, 252) !important; /* < your color there*/
+}
+
+/* Better Bot Tag */
+.botTagRegular-2HEhHi {
+    background: rgba(114,137,218,0.1);
+    color: #7289da;
+}
+.botTagRegular-2HEhHi:hover {
+    background: #7289da;
+    color: #fff;
+}
+
+/* Better roles */
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background: inherit;
+  opacity: .2;
+  z-index: -1;
+  pointer-events: none;
+}
+.footer-1fjuF6 {
+  border-top: none;
+}
+
+/* Show All Activity Arrow On Hover */
+.userPopout-3XzG_A .activityUserPopout-2yItg2 .allactivities-left, .userPopout-3XzG_A .activityUserPopout-2yItg2 .allactivities-right {
+     margin-right: 0;
+     margin-left: 0;
+     max-width: 0;
+     opacity: 0;
+     pointer-events: none;
+     transition: all 0.5s ease-in-out;
+}
+ .userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-left, .userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-right {
+     max-width: 32px;
+     opacity: 1;
+     pointer-events: all;
+}
+ .userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-left {
+     margin-right: 8px;
+}
+ .userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-right {
+     margin-left: 8px;
+}
+
+/* Discord Menu Icon*/
+  .button-1w5pas {
+    background: url('https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/menu.svg');
+    width: 18px;
+    height: 18px;
+    position: relative;
+    opacity: 1;
+    top: 0px;
+  }
+  .button-1w5pas path {
+    display: none;
+  }
+
+  .button-1w5pas.open-1Te94t {
+    transform: none;
+}
+
+/* Search Area Animation */
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: width 0.3s ease-in-out;
+}
+    
+/* Show Version Of Theme You Are Using */
+div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
+  content: "Theme Name (1.0.0)";
+  display: block;
+}
+
+/* Remove Button Outlines */
+.lookOutlined-3sRXeN {
+    border: None;
+    border-radius: 5px;
+}
+
+
+/* Remove "Welcome to #channel" at Begining of New Channels*/
+.hasDivider-20M1le {
+    display: none;
+}
+
+.container-3zqIcM {
+    display: none;
+}
+
+/*Compact Status Menu*/
+.status-1fhblQ, .description-2L932D {
+    display: none;
+}
+.separator-2I32lJ {
+    display: none;
+}
+.mask-1qbNWk.icon-1IxfJ2 {
+    --status-icon-size: 75%;
+    height: var(--status-icon-size); 
+    width: var(--status-icon-size);
+    margin-left: 33%;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    visibility: visible;
+}
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+    grid-column: 1/5;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+    transition: opacity 0.15s linear 0s;
+}
+.customText-tY5LJn {
+    font-size: 15px;
+}
+
+
+
+/* Better Spacing in Server Emoji Upload */
+.emojiUploader-1f0pVx,
+div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
+    display: none
+}
+
+.emojiRow-zIc7ZX {
+    display: inline-flex;
+    margin-right: 50px
+}
+
+/* Invite to Listen To Spotify Color */
+.attachButtonPlay-3iJ0mf {
+  color: var(--spotify-color);
+}
+
+/* Fix Avatar in Search and Pinned Messages */
+.searchResultMessage-1fxgXh.hit-1fVM9e > div > .contents-2mQqc9 img,
+div[id^=pinned-messages-] .contents-2mQqc9 img {
+  top: 15px
+}
+
+/* Separate Channels and Messages */
+.chat-3bRxxu > .title-3qD0b- {
+  background-color: var(--background-secondary) !important
+}
+
+/* Remove Speak Message Option */
+.item-1tOPte {margin:0;}
+#message-actions-tts, #message-tts {display:none;}
+
+/* Enlarge Emoji in emoji details popout */
+.emojiSection-3Fb9ix > .noWrap-3jynv6 {
+  flex-wrap: wrap;
+}
+.emojiSection-3Fb9ix img ~ div {
+  margin-left: 0 !important;
+  margin-top: 10px !important;
+}
+.emojiSection-3Fb9ix img {
+  margin: auto;
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+/* Profile Badges Fix */
+.profileBadges-2vWUYb {
+    flex-wrap: wrap;
+}
+
+/* Wiggle and Enlarge Mute Etc Buttons on Hover */
+.button-14-BFJ, .grow-q77ONN, .iconItem-1-bXkn, .closeButton-2GCmT5, .icon-22AiRD, .addButton-1BORrom, .closeButton-1tv5uR {
+  transition: all .2s ease-in-out;
+}
+
+.button-14-BFJ:hover, .iconItem-1-bXkn:hover, .closeButton-2GCmT5:hover, .icon-22AiRD:hover, .addButton-1BORro:hover, .closeButton-1tv5uR:hover {
+    transform: scale(1.2);
+}
+
+/* Better Popped Out QuickCSS */
+.powercord-quickcss.popped-out {
+  overflow: hidden;
+  border: 1px solid var(--background-tertiary);
+  background: var(--background-secondary)
+    url("/assets/5ac53bbce4bc51dd14d5413bd7d1c77d.svg") no-repeat 50% 35%/30%;
+}
+
+.powercord-entities-manage-tabs {
+  border: 1px solid var(--background-tertiary);
+}
+
+.powercord-quickcss-popped {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.powercord-quickcss {
+  border-radius: 5px;
+  border: 1px solid var(--background-tertiary);
+}
+
+.powercord-quickcss-popped::after {
+  content: ".";
+}
+
+.powercord-quickcss-popped {
+  width: 360px;
+}
+
+/* Separate Channels And Messages */
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+   border-radius: 15px 15px 0 0 !important
+}
+
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+   position: relative;
+   left: 5px;
+   padding-right: 5px
+}
+
+/* Reveal Spoilers on Hover */
+.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+        opacity: 1;
+        border-radius: 3px;
+        background-color: #4a4d53;
+}
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 2:04:13 PM
+ * Created by LuckFire#4800 (399416615742996480)
+ * Snippet ID: 755171652047732877
+ */
+body {
+   padding-top: 3.5px;
+   background: linear-gradient(270deg, #599FF2, #4557FC);
+}
+#app-mount {
+   height: calc(100% - 3.5px);
+}
+/** 755171652047732877 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 2:04:45 PM
+ * Created by CorellanStoma#1996 (288362986991648778)
+ * Snippet ID: 755170718869618840
+ */
+.homeIcon-tEMBK1 {
+    animation: Home 1.5s infinite ease-in-out;
+  }
+  @keyframes Home {
+    0% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(4deg) scale(1.01);
+    }
+    100% {
+      transform: rotate(-4deg);
+    }
+  }
+/** 755170718869618840 */
+
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 2:24:54 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 755177103200092211
+ */
+.searchResultMessage-1fxgXh.hit-1fVM9e > div > .contents-2mQqc9 img,
+div[id^="pinned-messages-"] .contents-2mQqc9 img {
+  top: 15px;
+}
+/** 755177103200092211 */
+
+
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 2:30:35 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 755178669915242627
+ */
+/*Yellow Permission Ticks*/
+.passthroughSelected-1Eq0Kl {
+  background-color: #ffba00 !important;
+}
+
+.passthrough-1c2ewQ:not(.passthroughSelected-1Eq0Kl) img {
+  content: url("https://cdn.discordapp.com/attachments/729456400077422623/748313547800313906/yellow.svg");
+}
+/** 755178669915242627 */
+
+/* Audioviz Color */
+.vp-audioviz-bar {
+background-color: #599FF2;
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 3:53:32 PM
+ * Created by ezist#7571 (632082248954282014)
+ * Snippet ID: 755199333019680769
+ */
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
+/** 755199333019680769 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 3:53:57 PM
+ * Created by Chromus#4761 (511758610720751626)
+ * Snippet ID: 755198964382302233
+ */
+.wordmark-2iDDfm > svg{
+  width: 0px;
+}
+/** 755198964382302233 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:48:39 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755219928168267797
+ */
+.searchResultMessage-1fxgXh.hit-1fVM9e > div > .contents-2mQqc9 img,
+div[id^=pinned-messages-] .contents-2mQqc9 img {
+  top: 15px
+}
+/** 755219928168267797 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:50:01 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755224202696458322
+ */
+.profileBadgeVerifiedDeveloper-4WY75k {
+  zoom: 120%;
+  position: relative;
+  top: -2px;
+}
+/** 755224202696458322 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:50:28 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755225168342941707
+ */
+#pinned-messages .edited-3sfAzf {
+  display: flex
+}
+/** 755225168342941707 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:51:02 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755227985895751691
+ */
+.header-QKLPzZ .headerInfo-30uryT .flex-1xMQg5 div {
+     transition: 0.2s;
+}
+.header-QKLPzZ .headerInfo-30uryT .flex-1xMQg5 div:hover {
+     transition: 0.2s;
+   transform: translateY(-0.75px);
+}
+/** 755227985895751691 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:51:24 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755228566131572817
+ */
+.verified-1eC5dy:not(.disableColor-MwOAZf) > svg path {
+    fill: #7289DA
+}
+/** 755228566131572817 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 5:51:36 PM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 755227187556253716
+ */
+.emojiUploader-1f0pVx,
+div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
+    display: none
+}
+
+.emojiRow-zIc7ZX {
+    display: inline-flex;
+    margin-right: 50px
+}
+/** 755227187556253716 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 7:48:12 PM
+ * Created by Freeplay#5676 (158296466119458816)
+ * Snippet ID: 755251579648475167
+ */
+/* Make autocomplete scrollable */
+.autocomplete-1vrmpx {
+  max-height: calc(100vh - 120px);
+  overflow-y: scroll;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: var(--scrollbar-thin-thumb);
+  min-height: 40px;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+/** 755251579648475167 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 15, 2020 at 7:15:37 AM
+ * Created by creatable#0123 (597905003717459968)
+ * Snippet ID: 755282035538526308
+ */
+#EmbedLinks {
+    background-color: rgb(67, 181, 129);
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    color: white !important;
+}
+/** 755282035538526308 */
+  
+  
+  /* Discord Menu Icon*/
+  .button-1w5pas {
+    background: url('https://raw.githack.com/CorellanStoma/Powercord/assets/Icons/menu.svg');
+    width: 18px;
+    height: 18px;
+    position: relative;
+    opacity: 1;
+    top: 0px;
+  }
+  .button-1w5pas path {
+    display: none;
+  }
+  .button-1w5pas.open-1Te94t {
+
+
+    
+    
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 1:42:27 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 755165969965646005
+ */
+.theme-dark .regionSelectModal-12e-57 {
+  background: var(--background-primary) !important;
+}
+.theme-dark .regionSelectModalOption-2DSIZ3 {
+  background: var(--background-secondary) !important;
+  border-color: var(--background-secondary-alt) !important;
+}
+.theme-dark .regionSelectModalOption-2DSIZ3:hover {
+  border-color: var(--background-tertiary) !important;
+}
+/** 755165969965646005 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 15, 2020 at 3:51:36 PM
+ * Created by Tropical#4355 (254362351170617345)
+ * Snippet ID: 755559186598985889
+ */
+.theme-dark {
+    --linkpreview-background:#35363a;
+    --linkpreview-color:#e8eaed;
+    --linkpreview-border:#2f3033;
+}
+.theme-light {
+    --linkpreview-background:#dee1e6;
+    --linkpreview-color:#3c4043;
+    --linkpreview-border:transparent;
+}
+.markup-2BOw-j .anchor-3Z-8Bb:after {
+    content:attr(href);
+    display:flex;
+    align-items:center;
+    z-index:9999;
+    background:var(--linkpreview-background);
+    line-height:normal;
+    font-weight:normal;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    color:var(--linkpreview-color);
+    font-size:12px;
+    padding:3px 4px;
+    padding-right:6px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    transition:200ms ease;
+    white-space:nowrap;
+    box-shadow:inset 0 0 0 1px var(--linkpreview-border);
+    border-top-right-radius:3px;
+    pointer-events:none;
+}
+.markup-2BOw-j .anchor-3Z-8Bb:hover:after {
+    opacity:1;
+}
+.base-gE7OpD {
+    z-index:-1;
+}
+/** 755559186598985889 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 15, 2020 at 3:53:49 PM
+ * Created by Јрuf#0001 (420893806049624074)
+ * Snippet ID: 755223150534590524
+ */
+.powercord-badge {
+  display: none;
+}
+/** 755223150534590524 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 15, 2020 at 6:43:12 PM
+ * Created by lucii#6018 (307316554805018624)
+ * Snippet ID: 755604553730097212
+ */
+/* Profile Scroll & Notes Hieght Fix */
+.note-QfFU8y textarea,
+.note-3HfJZ5 textarea  {
+   height: 25px !important;
+}
+/** 755604553730097212 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 16, 2020 at 7:21:06 AM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 755565507301867571
+ */
+/* Mobile Unread Messages Bar */
+#---new-messages-bar {margin: 0.5px 20px;top: 0;height: 22px;border-top: 0}
+#---new-messages-bar .content-1o0f9g {font-size: 14px;font-weight: 500;padding: 0 8px;background-color: var(--background-primary);border-radius: 0}
+#---new-messages-bar span::before {content: "";position: absolute;width: 100%;top: 50%;left: 0;border-bottom: thin solid;border-color: var(--background-modifier-accent);background-color: #f04747;z-index: -1;opacity: 0.3 !important}
+#---new-messages-bar .content-1o0f9g::after {border-color: currentColor;opacity: 0.7}
+#---new-messages-bar .content-1o0f9g + .unreadPill-2HyYtt::after {display: none}
+#---new-messages-bar .unreadPill-2HyYtt {
+position: initial;height: 100%;
+top: 0;color: #f04747;font-weight: 600;
+padding: 0 8px;background-color: var(--background-primary);font-size: 0}
+#---new-messages-bar .unreadPill-2HyYtt::after {
+font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
+#---new-messages-bar > span::before {border-color: currentColor;opacity: 0.7}
+#---new-messages-bar .unreadPill-2HyYtt svg {display: none}
+/** 755565507301867571 */
