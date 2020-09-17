@@ -1,3 +1,23 @@
+:root {
+    --Mention: 232, 69, 69;
+    --Verification: 67, 181, 129;
+}
+
+/* Mention Colored Mention */
+.mentioned-xhSam7:before {
+    background: rgba(var(--Mention), 1);
+}
+.mentioned-xhSam7 {
+    background: rgba(var(--Mention), 0.1);
+    border-radius: 0 24px 24px 0px;
+    margin-right: 20px
+}
+
+/* Uniform Server Partner Badges */
+svg[aria-label="Discord Partner"] {
+    color: rgba(var(--Verification)) !important;
+}
+
 /* Custom Code Font */
 code, .codeLine-14BKbG { 
     font-family: 'Fira Code', monospace; 
