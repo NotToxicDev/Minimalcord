@@ -2,12 +2,14 @@
 .theme-light,
 :root {
     /* Background */
+    /*
     --Color002: #33393D;
     --Color003: #262A2D;
     --Color004: #202427;
     --Color005: #1A1D20;
     
 /* Text */	
+    /*
     --Color006: #FFFFFF;
     --Color007: #DCDDDE;
     --Color008: #b9bbbe;
@@ -50,7 +52,7 @@
     --titlebar-close-button-active: var(--Color001);
 */
     /* Vars */
-
+/*
     --background-primary: var(--Color004);
     --background-secondary: var(--Color005);
     --background-secondary-alt: var(--Color002);
