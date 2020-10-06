@@ -1,0 +1,116 @@
+/* Mute Bell Icon Swing */
+.iconWrapper-2OrFZ1[role="switch"]:hover {
+	animation: Home 1.5s infinite ease-in-out;
+}
+@keyframes Home {
+	0% {
+		transform: rotate(-20deg);
+	}
+	50% {
+		transform: rotate(20deg) scale(1.01);
+	}
+	100% {
+		transform: rotate(-20deg);
+	}
+}
+
+/* Dropdown Messages Options Menu */
+
+div[id="message-actions"] {
+	min-width: 0px;
+	width: 57px;
+	transition: 1s;
+}
+div[id="message-actions"]:hover {
+	min-width: 0px;
+	width: 200px;
+	transition: 0.5s;
+}
+
+/* Animated Home Icon */
+.homeIcon-tEMBK1 {
+	animation: Home 1.5s infinite ease-in-out;
+}
+@keyframes Home {
+	0% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(4deg) scale(1.01);
+	}
+	100% {
+		transform: rotate(-4deg);
+	}
+}
+
+/* Reveal Spoilers on Hover */
+.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+	opacity: 1;
+	border-radius: 3px;
+	background-color: #4a4d53;
+}
+
+/* Wiggle and Enlarge Mute Etc Buttons on Hover */
+.button-14-BFJ,
+.grow-q77ONN,
+.iconItem-1-bXkn,
+.closeButton-2GCmT5,
+.icon-22AiRD,
+.addButton-1BORrom,
+.closeButton-1tv5uR {
+	transition: all .2s ease-in-out;
+}
+
+.button-14-BFJ:hover,
+.iconItem-1-bXkn:hover,
+.closeButton-2GCmT5:hover,
+.icon-22AiRD:hover,
+.addButton-1BORro:hover,
+.closeButton-1tv5uR:hover {
+	transform: scale(1.2);
+}
+
+/* User Settings Spin */
+.button-14-BFJ:nth-child(3):hover {
+	animation: rotate 4s infinite !important;
+	-webkit-transition-delay: now !important;
+	-webkit-animation-timing-function: linear !important;
+	background-color: transparent !important;
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Search Area Animation */
+.searchBar-3dMhjb {
+	width: 28px;
+	transition: width 0.3s ease-in-out;
+}
+
+/* Show All Activity Arrow On Hover */
+.userPopout-3XzG_A .activityUserPopout-2yItg2 .allactivities-left,
+.userPopout-3XzG_A .activityUserPopout-2yItg2 .allactivities-right {
+	margin-right: 0;
+	margin-left: 0;
+	max-width: 0;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.5s ease-in-out;
+}
+.userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-left,
+.userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-right {
+	max-width: 32px;
+	opacity: 1;
+	pointer-events: all;
+}
+.userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-left {
+	margin-right: 8px;
+}
+.userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-right {
+	margin-left: 8px;
+}

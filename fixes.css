@@ -1,0 +1,109 @@
+/* Dark Region Selector */
+.theme-dark .regionSelectModal-12e-57 {
+	background: var(--background-primary) !important;
+}
+.theme-dark .regionSelectModalOption-2DSIZ3 {
+	background: var(--background-secondary) !important;
+	border-color: var(--background-secondary-alt) !important;
+}
+.theme-dark .regionSelectModalOption-2DSIZ3:hover {
+	border-color: var(--background-tertiary) !important;
+}
+
+/* Profile Scroll & Notes Hieght Fix */
+.note-QfFU8y textarea,
+.note-3HfJZ5 textarea {
+	height: 25px !important;
+}
+
+/* Fix Better Friends Badge */
+:root .bf-badge {
+	background: transparent;
+}
+
+/* Hide the member list if Discord is under *X* pixels long */
+.membersWrap-2h-GB4.hiddenMembers-2dcs_q {
+	display: none;
+}
+@media screen and (min-width: 1100px) {
+	/* <-- Modify minimum width as you wish */
+	.membersWrap-2h-GB4.hiddenMembers-2dcs_q {
+		display: flex;
+	}
+}
+
+/* Make autocomplete scrollable */
+.autocomplete-1vrmpx {
+	max-height: calc(100vh - 120px);
+	overflow-y: scroll;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar-thumb {
+	background-clip: padding-box;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	background-color: var(--scrollbar-thin-thumb);
+	min-height: 40px;
+}
+.autocomplete-1vrmpx::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+/* Pinned Messages Fix */
+#pinned-messages .edited-3sfAzf {
+	display: flex;
+}
+
+/* Yellow Permission Ticks */
+.passthroughSelected-1Eq0Kl {
+	background-color: #ffba00 !important;
+}
+
+/* Some Pinned Massages Fix */
+.searchResultMessage-1fxgXh.hit-1fVM9e > div > .contents-2mQqc9 img,
+div[id^="pinned-messages-"] .contents-2mQqc9 img {
+	top: 15px;
+}
+
+.passthrough-1c2ewQ:not(.passthroughSelected-1Eq0Kl) img {
+	content: url("https://cdn.discordapp.com/attachments/729456400077422623/748313547800313906/yellow.svg");
+}
+
+/* Verified Devolper Badge Fix */
+.profileBadgeVerifiedDeveloper-4WY75k {
+	zoom: 120%;
+	position: relative;
+	top: -2px;
+}
+
+/* Profile Badges Fix */
+.profileBadges-2vWUYb {
+	flex-wrap: wrap;
+}
+
+/* Invite to Listen To Spotify Color */
+.attachButtonPlay-3iJ0mf {
+	color: var(--spotify-color);
+}
+
+/* Fix Avatar in Search and Pinned Messages */
+.searchResultMessage-1fxgXh.hit-1fVM9e > div > .contents-2mQqc9 img,
+div[id^=pinned-messages-] .contents-2mQqc9 img {
+	top: 15px;
+}
+
+/* Mention Colored Mention */
+.mentioned-xhSam7:before {
+	background: rgba(232, 69, 69, 1);
+}
+.mentioned-xhSam7 {
+	background: rgba(232, 69, 69, 0.1);
+}
+.mentioned-xhSam7:hover {
+	background: rgba(232, 69, 69, 0.2) !important;
+}
+
+/* Uniform Server Partner Badges */
+svg[aria-label="Discord Partner"] {
+	color: rgba(67, 181, 129) !important;
+}
