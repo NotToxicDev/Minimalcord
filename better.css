@@ -2,9 +2,14 @@
 
 /* Round Message Highlight */
 .message-2qnXI6, .mentioned-xhSam7 {
-    border-radius: 0 24px 24px 0px;
+    border-radius: 24px 24px 24px 24px;
     margin-right: 20px
 }
+
+/* Round Channel Highlight */
+.content-3at_AU {
+    border-radius: 50px;
+  }
 
 /* Bettter Voice Connected */
 .ping-2NgC8E {
