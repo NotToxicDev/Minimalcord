@@ -374,16 +374,16 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 	height: auto !important;
 }
 
- /*Profile Modal*/
- .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+/*Profile Modal*/
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1 !important;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#7289DA,#7289DA) !important;
  }
  
  
  .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+    z-index: 1 !important;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1DB954,#1DB954) !important;
  }
 
  /* Custom Code Font */
