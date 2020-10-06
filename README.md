@@ -1,2 +1,2 @@
-# BD-PC-Stuff
-Themes and Plugins for Better Discord and Powercord
+# Minimalcord
+A clean and simple [Discord](https://discord.com/ "Discord") theme.
