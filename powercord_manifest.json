@@ -3,6 +3,6 @@
 	"description": "Best Snippets Around",
 	"version": "1.0",
 	"author": "Chromus",
-	"theme": "theme.css",
+	"theme": "minimalcord.css",
 	"license": "unknown"
 }
