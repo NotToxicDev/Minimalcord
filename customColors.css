@@ -172,11 +172,6 @@
   background-color: var(--background-secondary) !important;
 }
 
-/* Playing Activity */
-.activity-11LB_k {
-  background-color: var(--background-secondary) !important;
-}
-
 /* Side piece of mention */
 .mentioned-xhSam7::before {
   background-color: var(--background-tertiary) !important;
