@@ -1,4 +1,5 @@
 /* Remove Annoying Buttons */
+
 /* Help */
 a[href="https://support.discord.com"] {
 	display: none !important;
@@ -7,6 +8,16 @@ a[href="https://support.discord.com"] {
 [aria-label="Member List"],
 [aria-label="Inbox"] {
 	display: none;
+}
+
+/* Remove Nitro Gift Button */
+.button-38aScr[aria-label="Send a gift"] {
+  display: none;
+}
+
+/* Remove Gif Picker */
+.button-38aScr[aria-label="Open GIF picker"] {
+  display: none;
 }
 
 /* Remove Porkord Badge */
