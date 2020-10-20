@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 /* Round Message Highlight */
-.message-2qnXI6, .mentioned-xhSam7 {
+.message-2qnXI6, {
     border-radius: 24px 24px 24px 24px;
+    margin-right: 20px
+}
+.mentioned-xhSam7 {
+    border-radius: 0px 24px 24px 0px;
     margin-right: 20px
 }
 
@@ -164,8 +168,9 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 .footer-1fjuF6 {
   border-top: none;
+}
 
-}/* Better Blocked Messages */
+/* Better Blocked Messages */
 .blockedMessageText-1fRjos:before {
    content: "";
    background: var(--background-secondary);
@@ -382,17 +387,150 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*Profile Modal*/
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
     z-index: 1 !important;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top,#24292F, #24292F) !important;
- }
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#24292F, #24292F) !important;
+}
  
  
- .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    z-index: 1 !important;
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+   	z-index: 1 !important;
     background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top,#24292F, #1DB954) !important;
- }
+}
 
 
  /* Custom Code Font */
 code, .codeLine-14BKbG { 
     font-family: 'Fira Code', monospace; 
   }
+
+/* Quick CSS => CSS Snippets */
+.item-PXvHYJ[data-item-id="QUICK_CSS"] {
+  font-size: 0px;
+}
+
+.item-PXvHYJ[data-item-id="QUICK_CSS"]:after {
+  color: var(--interactive-inactive);
+  font-size: 16px;
+
+  content: "CSS Snippets";
+}
+
+/** Accent colored discord join/explore buttons**/
+.circleIconButton-jET_ig svg path{
+  fill: #4b516a;
+}
+.circleIconButton-jET_ig.selected-ugP_am{
+  background-color: #4b516a;
+}
+.circleIconButton-jET_ig.selected-ugP_am svg path{
+  fill: white;
+}
+
+/* Show Discord, even when you're offline (No Internet) */
+.container-16j22k {
+  background: transparent;
+  pointer-events: none;
+}
+.container-16j22k * {
+  display: none;
+}
+.container-16j22k::before {
+  content: 'You\'ve gone offline';
+  display: block;
+  bottom: 24px;
+  right: 24px;
+  position: absolute;
+  padding: 8px 16px;
+  background-color: #f04747;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/** Better channel unread marker **/
+.unread-3zKkbm {
+    background-color: #5f6786;
+    width: 4px;
+    height: 28px;
+    margin-top: -15px;
+    border-radius: 0px 4px 4px 0;
+}
+
+/** Alternative highlight for selected channel **/
+.content-3at_AU{
+  border-radius: 15px 15px 15px 15px;
+}
+.modeSelected-1zApJ_ .children-Bmpf2Q {
+  background-color: #4b516a;
+  height: 30px;
+  padding-left: 6px;
+  padding-right: 10px;
+  margin-right: -8px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Better Tooltips */
+.tooltip-2QfLtc {
+   background-color: rgba(75, 81, 106, 0.5) !important;
+   backdrop-filter: blur(1.5px);
+   text-shadow: #000 1px 0 5px;
+}
+.tooltipPointer-3ZfirK {
+   border-top-color: rgba(75, 81, 106, 0.5) !important;
+}
+.tooltipContent-bqVLWK > .colorMuted-HdFt4q {
+   color: #F04747;
+}
+.tooltipContent-bqVLWK > .row-2OVM4t > svg > path {
+   fill: #43B581;
+}
+
+/* Bigger Quick Reaction */
+.menu-3sdvDG .button-F9qN4n {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.menu-3sdvDG .wrapper-3_530D {
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(2,1fr);
+    padding: 9px 0px 0px 1px;
+    justify-items: start;
+}
+.menu-3sdvDG .wrapper-3_530D .icon-QGKz8T {
+    height: 50px;
+    width: 50px;
+}
+
+/* Round Connected Accounts */
+.connectedAccount-36nQx7{
+  border-radius: 100px;
+}
+
+/* Round Mentions */
+.mention {
+  border-radius: 10px;
+}
+
+/* Round Images */
+img {
+  border-radius: 13px;
+}
+.emoji {
+  border-radius: 0px;
+}
+
+.icon-3ZzoN7 {
+  border-radius: 0px !important;
+}
+
+/* Round quick CSS */
+.powercord-quickcss {
+  border-radius: 25px;
+}
+
+/* Something Round */
+.wrapper-2aW0bm,.button-1ZiXG9.selected-LCBEAU,.button-1ZiXG9,.powercord-snippet-apply:not(.applied) div:hover,.powercord-snippet-apply div  {
+    border-radius: 24px !important;
+}
+
