@@ -7,6 +7,11 @@
     --logo-primary: rgba(var(--alt-color));
   }
   
+/* AudioViz Color */
+.vp-audioviz-bar {
+  background: rgba(var(--alt-color)) !important;
+}
+
 /* Clyde / Powercord */
 .localBot-GrCgVt:before {
     background-color: rgba(var(--alt-color)) !important;
