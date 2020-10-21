@@ -10,6 +10,11 @@
 	border-color: var(--background-tertiary) !important;
 }
 
+/*Stop Member Count Being Cutoff*/
+div > .total-members.counts {
+	padding: 22px;
+}
+
 /* Profile Scroll & Notes Hieght Fix */
 .note-QfFU8y textarea,
 .note-3HfJZ5 textarea {
@@ -94,18 +99,18 @@ div[id^=pinned-messages-] .contents-2mQqc9 img {
 
 /* Mention Colored Mention */
 .wrapper-3WhCwL {
-    border-radius: 10px !important;
-    color: rgba(75, 81, 106) !important;
-    background: rgba(75, 81, 106, 0.1) !important;
+	border-radius: 10px !important;
+	color: rgba(75, 81, 106) !important;
+	background: rgba(75, 81, 106, 0.1) !important;
 }
 .wrapper-3WhCwL:hover {
-    color: rgba(95, 103, 134) !important;
-    background: rgba(95, 103, 134, 0.1) !important;
+	color: rgba(95, 103, 134) !important;
+	background: rgba(95, 103, 134, 0.1) !important;
 }
 
 .wrapper-3WhCwL[role="button"]:hover {
-  	color: rgba(95, 103, 134) !important;
-  	background: rgba(95, 103, 134, 0.1) !important;
+	color: rgba(95, 103, 134) !important;
+	background: rgba(95, 103, 134, 0.1) !important;
 }
 
 /* Uniform Server Partner Badges */

@@ -1,3 +1,17 @@
+/* Fly in Voice Chat buttons */
+.container-3baos1 .noWrap-3jynv6 {
+	width: 0px;
+	opacity: 0;
+	pointer-events: none;
+	transition: all .3s ease-in-out;
+}
+
+.container-3baos1:hover .noWrap-3jynv6 {
+	width: 100px;
+	opacity: 1;
+	pointer-events: all;
+}
+
 /* Mute Bell Icon Swing */
 .iconWrapper-2OrFZ1[role="switch"]:hover {
 	animation: Home 1.5s infinite ease-in-out;

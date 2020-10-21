@@ -310,18 +310,112 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
     content: 'Packet Loss: ';
 }
 
+/* Fly in Voice Chat buttons */
+.panels-j1Uci_ .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ .container-3baos1 button:not([role="switch"]) {
+  transition: 0.3s ease-in-out;
+  width: 0px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+}
+.panels-j1Uci_ .container-3baos1:hover button.button-14-BFJ {
+  transition: 0.2s ease-in-out;
+  width: 32px !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+}
+
+.avatar-1BDn8e.clickable-1bVtEA{
+padding: 10px;
+border-radius: 20px;
+height: 35px !important;
+width: 35px !important;
+}
+
+/* Cool Member List */
+:root {
+  --hover-animation-speed: 0.35s;
+  --seperator-color: var(--background-accent);
+}
+
+.membersWrap-2h-GB4 {
+  min-width: unset;
+  width: 65px;
+  justify-content: right;
+}
+
+.members-1998pB {
+  transition: transform var(--hover-animation-speed);
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB {
+  transform: translateX(-190px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  border-radius: 50px;
+  background: unset;
+  background-color: var(--seperator-color);
+  position: absolute;
+  left: -36px;
+  top: 29px;
+  margin-left: 0px;
+}
+
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+  background-color: unset;
+  margin-left: 0px;
+  transition: margin-left var(--hover-animation-speed);
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+  margin-left: 8px;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(-6px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+  cursor: default;
+  transform: translateX(45px);
+  transition: transform var(--hover-animation-speed);
+  overflow: visible;
+}
+
+.members-1998pB {
+border-radius: 15px 0 0 15px !important;
+}
+.membersWrap-2h-GB4, .members-1998pB {
+left: 15px;
+margin-right: 10px
+}
+.chat-3bRxxu {
+background: var(--background-tertiary);
+}
+.chatContent-a9vAAp {
+background-color: var(--background-primary);
+border-radius: 0 15px 0 0 !important;
+left: 25px;
+margin-left: -25px
+}
 
 /* Separate Channels And Messages */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
     border-radius: 15px 15px 0 0 !important
  }
   
- .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
     position: relative;
     left: 5px;
     padding-right: 5px
- }
+}
 
+.chat-3bRxxu > .title-3qD0b- {
+	background-color: var(--background-secondary) !important;
+}
  /* Better Spacing in Server Emoji Upload */
 .emojiUploader-1f0pVx,
 div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
@@ -365,10 +459,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 	font-size: 15px;
 }
 
-/* Separate Channels and Messages */
-.chat-3bRxxu > .title-3qD0b- {
-	background-color: var(--background-secondary) !important;
-}
+
 
 /* Enlarge Emoji in emoji details popout */
 .emojiSection-3Fb9ix > .noWrap-3jynv6 {
