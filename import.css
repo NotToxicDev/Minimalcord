@@ -5,12 +5,13 @@
 /* Fixes */
 @import url("https://raw.githack.com/Chromus-dev/Minimalcord/master/fixes.css");
 /* Better */
-@import url("https://raw.githack.com/Chromus-dev/Minimalcord/master/better.css");
+@import url("https://raw.githack.com/NotToxicDev/Minimalcord/master/better.css");
 /* Display None */
-@import url("https://raw.githack.com/Chromus-dev/Minimalcord/master/displayNone.css");
+@import url("https://raw.githack.com/NotToxicDev/Minimalcord/master/displayNone.css");
 /* Custom Colors */
 @import url("https://raw.githack.com/Chromus-dev/Minimalcord/master/customColors.css");
-
+/*Toxicord*/
+@import url("https://raw.githack.com/NotToxicDev/Minimalcord/master/toxicord.css")
 /* Themes */
 
 /* More Rounded Borders by LuckFire#4800 */
