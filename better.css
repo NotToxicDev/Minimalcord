@@ -34,49 +34,7 @@
 }
 
 /* Mac Buttons */
-.winButton-iRh8-Z svg {
-    top: 10px;
-}
-.notice-2FJMB4, .notice-1tZwqv {
-    z-index: 1000;
-}
-.winButton-iRh8-Z > svg {
-   display: none;
-}
-.winButton-iRh8-Z:hover {
-   background-color: var(--background-teritary);
-}
-.winButton-iRh8-Z {
-   pointer-events: none;
-   margin-left: -3px;
-}
-.winButton-iRh8-Z::after {
-   content: "";
-   padding: 7px;
-   border-radius: 50px;
-   pointer-events: fill;
-}
-.winButtonClose-1HsbF- {
-   margin-right: 3px;
-}
-.winButtonClose-1HsbF-::after {
-   background-color: #FF605C;
-}
-.winButtonClose-1HsbF-:hover::after {
-   background-color: rgba(255, 96, 92, 0.5);
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
-   background-color: #FFBD44;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
-   background-color: rgba(255, 189, 68, 0.5);
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
-   background-color: #00CA4E;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
-   background-color: rgba(0, 202, 78, 0.5);
-}
+/*Deleted bc windows*/
   
 /* Smooth Banner Transition */
 .bannerImage-1jOskm:before
