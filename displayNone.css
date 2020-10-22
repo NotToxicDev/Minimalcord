@@ -69,9 +69,7 @@ div.userInfoSection-2acyCx {
 }
 
 /** Hide the 'Not seeing controls?' icon **/
-.powercord-spotify .flex-1xMQg5{
-  display: none;
-}
+/*Removed for premium*/
 
 /* No Nitro Button */
 .channel-2QD9_O[href="/store"] {
