@@ -9,8 +9,8 @@
   /* Message Bar */
   --channeltextarea-background: #23272D;
 
-  --background-mentioned: var(--background-secondary-alt);
-  --background-mentioned-hover: var(--background-secondary);
+  --background-mentioned: (10, 82, 10);
+  --background-mentioned-hover: (10, 82, 10);
 
   --scrollbar-thin-thumb: var(--background-tertiary);
   --scrollbar-thin-track: var(--background-secondary);
